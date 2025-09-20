@@ -9,27 +9,30 @@
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
 
-    --card: 240 10% 3.9%;
+    --card: 240 10% 4.5%;
     --card-foreground: 0 0% 98%;
 
     --popover: 240 10% 3.9%;
     --popover-foreground: 0 0% 98%;
 
-    /* Professional gradient primary */
-    --primary: 221 83% 53%;
+    /* Enhanced gradient primary with more vibrant colors */
+    --primary: 258 90% 66%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 221 100% 65%;
+    --primary-glow: 258 100% 75%;
+    --primary-dark: 258 95% 55%;
     
-    /* Secondary professional grays */
+    /* Enhanced secondary with warm tones */
     --secondary: 240 5% 15%;
     --secondary-foreground: 0 0% 98%;
 
     --muted: 240 5% 15%;
     --muted-foreground: 240 5% 65%;
 
-    --accent: 262 83% 58%;
+    /* Enhanced accent with complementary orange/coral */
+    --accent: 14 90% 60%;
     --accent-foreground: 0 0% 98%;
-    --accent-glow: 262 100% 70%;
+    --accent-glow: 14 100% 70%;
+    --accent-dark: 14 95% 50%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
@@ -37,22 +40,27 @@
     --border: 240 5% 15%;
     --input: 240 6% 10%;
     --input-border: 240 5% 20%;
-    --ring: 221 83% 53%;
+    --ring: 258 90% 66%;
 
-    /* Professional gradients */
+    /* Enhanced gradients with more dynamic colors */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
-    --gradient-card: linear-gradient(145deg, hsl(240 10% 4.5%), hsl(240 8% 6%));
+    --gradient-card: linear-gradient(145deg, hsl(240 10% 4.5%), hsl(240 8% 6.5%));
     --gradient-button: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
     --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary-dark)) 0%, hsl(var(--primary)) 25%, hsl(var(--accent)) 75%, hsl(var(--accent-glow)) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(240 10% 3.9%) 0%, hsl(240 8% 5%) 100%);
     
-    /* Shadows for depth */
-    --shadow-lg: 0 20px 40px -12px hsl(var(--primary) / 0.25);
-    --shadow-card: 0 8px 32px -8px hsl(0 0% 0% / 0.3);
-    --shadow-button: 0 8px 24px -8px hsl(var(--primary) / 0.4);
+    /* Enhanced shadows with more depth */
+    --shadow-lg: 0 25px 50px -12px hsl(var(--primary) / 0.4);
+    --shadow-card: 0 12px 40px -8px hsl(0 0% 0% / 0.4);
+    --shadow-button: 0 12px 32px -8px hsl(var(--primary) / 0.5);
+    --shadow-glow: 0 0 60px hsl(var(--primary) / 0.3);
+    --shadow-accent: 0 12px 32px -8px hsl(var(--accent) / 0.4);
     
-    /* Animation variables */
+    /* Enhanced animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-elastic: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
     --radius: 0.5rem;
 
